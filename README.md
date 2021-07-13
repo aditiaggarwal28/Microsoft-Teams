@@ -1,26 +1,35 @@
-# Getting Started with Create React App
+=======MICROSOFT TEAMS CLONE========
+A video calling app where two people can connect with the video. They can send messages to each other and can talk and do video call and also make use of the various functionality. This app is created using webrtc for peer to peer connection and for signalling, authorization and storing databases firebase is used.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+===================================
+Link to my app:-https://final--teams.web.app/
+//recommended for firefox and edge.
+===================================
 
-## Available Scripts
+=============
+Requirements
+Install npm first
+Install firebase
+=============
 
-In the project directory, you can run:
+=============
+Modules Installing
+=============
+Install react-firebase-hooks
+Install react-bootstrap
+Install react 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+=============
+How to run this code
+=============
+--Firstly download it as a zip folder from github
+--After that change the configuration of your firebase in configuration.js
+--You have to use following commands
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-firebase init
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
+-npm run build
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -29,42 +38,49 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+-firebase deploy 
+This command will deploy your project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+But if you want to run in your local server
+Type npm start
+### `npm start`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+==================
+How to run website
+==================
+1. Firstly there is one option for username. It's optional
+2. Then you have to click on sign in button.
+3. You have to sign in using your google account.
+4. You would be directed to the create room page.
+5. You can create a room or you can join the link if you have the link.
+6. By creating the room you can see the room id on the top right corner. 
+7. You can send that id to your friend in order to connect with you.
+8. After that you will be directed to the chat page of the app
+9. You can chat with the team members.
+10. By clicking on go to meeting button on the top left corner, you can join the meeting.
+11. By default audio and video are off.
+12. You can turn on the video icon to turn it on and similarly on the audio icon.
+13. By clicking on screen share button, you can share the screen.
+14. You can record the screen using start recording button and stop it using the same way.
+15. Bottom left corner they is a chat icon, when you click on that you can chat with the users.
+16. By clicking on hung up button, you will be disconnected from the meet but not from the chat.
+17. To permanently delete the chat, you have to click on leave chat button in order to delete the chat room.
+18. You will be signed out and again directed to the sign in page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+====================
+Troubleshooting
+====================
+1. If you are facing any issue in having a successful videocall, try using the app in Incognito mode of your browser. This may resolve some security issue which aren't allowing app to open.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. If the issue is still not resolved, (for eg- your friend is not able to connect to your server), it might be because of the firewall in your/his Wifi connection.
 
-### Code Splitting
+3. If still facing the issues, this means your browser is blocking third party cookies, try using other browsers like edge, firefox.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. If still facing the issue, reload the app once and don't reload while using it and fill all the information correctly.
