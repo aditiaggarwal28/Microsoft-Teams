@@ -1,52 +1,9 @@
 body {
-    background: #ECEFF1;
-    color: rgba(0, 0, 0, 0.87);
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-#message {
-    background: white;
-    max-width: 360px;
-    margin: 100px auto 16px;
-    padding: 32px 24px;
-    border-radius: 3px;
-}
-
-#message h2 {
-    color: #ffa100;
-    font-weight: bold;
-    font-size: 16px;
-    margin: 0 0 8px;
-}
-
-#message h1 {
-    font-size: 22px;
-    font-weight: 300;
-    color: rgba(0, 0, 0, 0.6);
-    margin: 0 0 16px;
-}
-
-#message p {
-    line-height: 140%;
-    margin: 16px 0 24px;
-    font-size: 14px;
-}
-
-#message a {
-    display: block;
-    text-align: center;
-    background: #039be5;
-    text-transform: uppercase;
-    text-decoration: none;
+    background: #202020 !important;
+    background-image: url("img/bubbles2.svg") !important;
+    background-size: cover;
     color: white;
-    padding: 16px;
-    border-radius: 4px;
-}
-
-#message, #message a {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 #load {
@@ -56,50 +13,149 @@ body {
 }
 
 @media (max-width: 600px) {
-    body, #message {
-        margin-top: 0;
-        background: white;
-        box-shadow: none;
-    }
-
+    body,
     body {
         border-top: 16px solid #ffa100;
     }
 }
 
+button:focus {
+    outline: 0 !important;
+}
 
+.btn {
+    border-radius: 45%;
+}
+
+.disabled {
+    display: none;
+}
+
+.btn:hover {
+    background: #407cf7;
+}
+
+.blue {
+    background: #407cf7;
+}
+
+#pane {
+    position: fixed;
+    bottom: 1%;
+    left: 32%;
+    z-index: 3;
+}
+
+#chatbtn {
+    position: fixed !important;
+    bottom: 2%;
+    right: 5%;
+    margin: 7px;
+}
+
+#custom-tooltip {
+    display: none;
+    margin-left: 40px;
+    padding: 5px 12px;
+    background-color: #000000df;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.col-0 {
+    margin: 7px;
+}
 
 button {
     margin: 0.2em 0.1em;
+    display: inline-block;
 }
 
-div#videos {
+button:hover {
+    background-color: azure;
+}
+
+#videos {
+    display: block;
+    border-color: red;
+    position: fixed;
+    top: 12%;
+    bottom: 10%;
+    left: 2%;
+    right: 2%;
+    border-radius: 0.7%;
+    background-color: #303030;
+}
+
+#frontPage {
+    margin-left: 2% !important;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    background-color: #202020 !important;
 }
 
-div#videos > video {
-    background: black;
-    width: 640px;
-    height: 100%;
+.container {
+    margin-left: 2% !important;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 !important;
+}
+
+.flex-even {
+    flex: 1;
+}
+
+#localVideo {
+    background: rgb(0, 0, 0);
     display: block;
-    margin: 1em;
+    margin: 1%;
+    max-width: 700px;
+    max-height: 500px;
 }
 
-div.messageBox {
-    width: 100%;
-}
-
-textarea.message {
-    width: 100%;
-    height: 5em;
-    resize: none;
+#remoteVideo {
+    background: rgb(0, 0, 0);
     display: block;
-    box-sizing: border-box;
-    margin: 1em;
+    margin: 1%;
+    max-height: 500px;
+    max-width: 700px;
 }
 
-label {
-    font-weight: 400;
+#front_flex {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10%;
+    margin-right: 15%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 6%;
 }
+
+#front-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#myVid {
+    background: rgb(0, 0, 0);
+    max-width: 600px !important;
+    height: auto;
+    display: block;
+    margin: 1%;
+}
+
+#recFormat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#chat {
+    z-index: 999 !important;
+    background: none;
+    background-image: url("img/bubbles2.svg");
+    background-size: cover;
+}
+
+#main_code {}

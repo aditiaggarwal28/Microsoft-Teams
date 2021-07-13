@@ -1,29 +1,40 @@
-import React,{Component} from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
 import Logo from '../Images/Logo.png';
-import {Navbar,Form ,Nav,Button,FormControl} from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 
-class Navbr extends Component{
-    render(){
+// Navbar 
+class Navbr extends Component {
+    render() {
+        const myStyle = {
+            height: "50px",
+            backgroundColor: "#202020",
+            zIndex:"90",
+        };
         return (
             <>
-                <Navbar bg="dark" variant="dark">
-                    <Navbar.Brand  href="#home"></Navbar.Brand>
+                <Navbar style={myStyle}>
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home"> 
+                        <Nav.Link href="">
                         </Nav.Link>
                         <Nav.Link href="#home">
                             <img
                                 src={Logo}
-                                width="40"
-                                height="40"
+                                width="30"
+                                height="30"
                                 className="d-inline-block align-top"
                                 alt="Microsoft Teams logo"
                             />
                         </Nav.Link>
-                        <Nav.Link href="#home">
-                            <h2>Microsoft Teams</h2>
-                            
+                        <Nav.Link href="">
+                            <h2 style={{
+                                color: "white",
+                                paddingLeft: 9,
+                                paddingRight: 9,
+                                borderRadius:"5%",
+                                paddingTop:4,
+                                fontWeight:"inherit",
+                            }}>Microsoft Teams</h2>
+
                         </Nav.Link>
                     </Nav>
 
