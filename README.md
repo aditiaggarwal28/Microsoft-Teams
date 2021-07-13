@@ -5,7 +5,7 @@ MICROSOFT TEAMS CLONE
 A video calling app where two people can connect with the video. They can send messages to each other and can talk and do video call and also make use of the various functionality. This app is created using webrtc for peer to peer connection and for signalling, authorization and storing databases firebase is used.
 
 
-Link to my app:-https://final--teams.web.app/
+Link to my app:-https://ms-teams-c874f.web.app/
 =============
 
 
