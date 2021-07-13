@@ -1,27 +1,26 @@
-=======MICROSOFT TEAMS CLONE========
+
+
+MICROSOFT TEAMS CLONE
 
 A video calling app where two people can connect with the video. They can send messages to each other and can talk and do video call and also make use of the various functionality. This app is created using webrtc for peer to peer connection and for signalling, authorization and storing databases firebase is used.
 
-=============
+
 Link to my app:-https://final--teams.web.app/
-//recommended for firefox and edge.
 =============
 
-=============
+
 Requirements
+============
 Install npm first
 Install firebase
-=============
 
-=============
+
 Modules Installing
 =============
 Install react-firebase-hooks
 Install react-bootstrap
 Install react 
 
-
-=============
 How to run this code
 =============
 --Firstly download it as a zip folder from github
@@ -53,7 +52,7 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 
-==================
+
 How to run website
 ==================
 1. Firstly there is one option for username. It's optional
@@ -75,7 +74,7 @@ How to run website
 17. To permanently delete the chat, you have to click on leave chat button in order to delete the chat room.
 18. You will be signed out and again directed to the sign in page.
 
-====================
+
 Troubleshooting
 ====================
 1. If you are facing any issue in having a successful videocall, try using the app in Incognito mode of your browser. This may resolve some security issue which aren't allowing app to open.
